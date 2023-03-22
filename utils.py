@@ -17,7 +17,7 @@ host = 'smtp.gmail.com'
 port = 465     # SSL port
 
 user = 'heldagund@gmail.com'
-password = 'vkfktnxwrhzuvdaq'
+password = '*'
 
 _, term_width = os.popen('stty size', 'r').read().split()
 term_width = int(term_width)
